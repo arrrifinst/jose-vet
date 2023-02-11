@@ -1,0 +1,177 @@
+@import url('https://fonts.googleapis.com/css2?family=Sora:wght@300;400;500;600;700;800&display=swap');
+
+body {
+    font-family: 'Sora', sans-serif;
+}
+
+/* Navbar */
+.navbar {
+    background-color: white;
+    padding-top: 12px;
+}
+
+.navbar .navbar-nav .nav-link {
+    padding: 0 4%;
+}
+
+.navbar .btn {
+    border-radius: 3rem;
+    padding: 6px 3%;
+}
+/* End Navbar */
+
+/* Hero Section */
+.hero {
+    background-image: url('/img/hero.png');
+    background-size: cover;
+    min-height: 90vh;
+    position: relative;
+    background-position: unset;
+    color: white;
+    border-radius: 8px;
+    /* text-shadow: 2px 2px 2px rgba(0,0,0,.2); */
+    margin-top: 4rem;
+}
+
+.hero .color-overlay {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(0,0,0,.2);
+    border-radius: 8px;
+    padding-left: 30px;
+}
+
+.hero h1 {
+    font-size: 3rem;
+    font-weight: 600;
+    max-width: 30rem;
+}
+
+.hero p {
+    font-weight: 200;
+    margin-bottom: 2rem;
+}
+/* End Hero Section */
+
+.about {
+    padding: 80px 0;
+}
+  
+.about .header h2 {
+    /* font-size: 40px; */
+    font-weight: 700;
+    /* line-height: 48px; */
+}
+  
+.about .header p {
+    /* font-size: 18px; */
+    font-weight: 300;
+    /* line-height: 28px; */
+    color: var(--grey-1);
+    /* padding: 27px 0; */
+}
+  
+/* .about .items {
+    padding-top: 50px;
+} */
+
+.about .icons {
+    padding: 27px 0;
+}
+  
+.about h5 {
+    font-weight: 700;
+    /* font-size: 18px; */
+    /* line-height: 24px; */
+    color: var(--black);
+    padding-bottom: 10px;
+}
+  
+.about .desc p {
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 22px;
+    color: var(--black);
+    max-width: 284px;
+    margin: 0 auto;
+}
+
+.information {
+    padding: 80px 0;
+}
+
+.information img {
+    border-radius: 8px;
+}
+  
+.information h3 {
+    font-weight: 700;
+}
+  
+.information p {
+    font-size: 18px;
+    font-weight: 200;
+    padding-top: 20px;
+}
+  
+.information .info-1 {
+    padding: 183px 0;
+}
+
+.contact .header h2 {
+    /* font-size: 40px; */
+    font-weight: 700;
+    /* line-height: 48px; */
+}
+  
+.contact .header p {
+    /* font-size: 18px; */
+    font-weight: 300;
+    /* line-height: 28px; */
+    color: var(--grey-1);
+    padding-bottom: 30px;
+}
+
+.contact .card {
+    padding: 40px 5%;
+}
+
+footer a {
+    text-decoration: none;
+}
+
+footer a .btn-floating {
+    font-size: 29px;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    html {
+        font-size: 75%;
+    }
+
+    .navbar .navbar-nav .nav-link {
+        padding: 5px 0;
+        margin-top: 8px;
+    }
+
+    .navbar .btn {
+        margin-top: 8px;
+    }
+
+    .hero {
+        min-height: 40vh;
+        margin-top: 5rem;
+    }
+
+    .information img {
+        width: 20px;
+    }
+
+    
+
+    /* h1 {
+        font-size: calc(1.525rem + 3.3vw);
+    } */
+}
